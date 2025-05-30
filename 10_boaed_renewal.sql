@@ -97,3 +97,4 @@ select p.title as '제목', p.contents as '내용', a.name as '이름'
 from post p 
 inner join author_post ap on p.id=ap.post_id
 inner join author a on a.id=ap.author_id;
+
